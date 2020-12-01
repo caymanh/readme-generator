@@ -1,4 +1,4 @@
-# aa
+# README Generator
 
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
  
@@ -22,19 +22,19 @@
   ### Description
 
       
-  dd
+  README Generator is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The application will generate the following sections: Table of Contents, Description, Installation Instructions, Usage Information, Licence, Contribution Guidelines, Test Instructions and Questions (contact information).
 
       
   ### Installation
 
 
-  ff
+  The application will be invoked by using the following command:\n```bash\nnode index.js\n```
 
 
   ### Usage
 
 
-  vv
+  The application can be used by developers to generate a README for their projects.
 
 
   ### Licence
@@ -46,18 +46,19 @@
   ### Contributing
 
 
-  vv
+  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
   ### Tests
 
 
-  aa
+  For test instructions, please contact me for further discussion.
 
 
   ### Questions
 
 
-  Github: https://github.com/a
+  Github: https://github.com/caymanh
 
-  Email: a
+  
+  Email: hengcayman@gmail.com
