@@ -24,6 +24,8 @@
       
   README Generator is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The application will generate the following sections: Table of Contents, Description, Installation Instructions, Usage Information, Licence, Contribution Guidelines, Test Instructions and Questions (contact information).
 
+  For a detailed walkthrough video on how to use the application, please click on the link [here](https://drive.google.com/file/d/1mPbWDh1hRoM1XgjhrC9f-X_q0b3dMwz2/view).
+
       
   ### Installation
 
