@@ -28,7 +28,7 @@
   ### Installation
 
 
-  The application will be invoked by using the following command: 
+  The application can be invoked by using the following command: 
   ```bash
   node index.js
   ```
@@ -55,7 +55,7 @@
   ### Tests
 
 
-  For test instructions, please contact me for further discussion.
+  For test instructions, please contact me to discuss further.
 
 
   ### Questions
