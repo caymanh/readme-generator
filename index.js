@@ -101,7 +101,6 @@ const writeToFile = (fileName, data) => {
   );
 };
 
-const test = `# testing ### testing3`;
 // function to initialize program
 const init = () => {
   inquirer.prompt(questions).then((data) => {
@@ -113,20 +112,7 @@ const init = () => {
 // function call to initialize program
 init();
 
-// function to write README file
-// const writeToFile = (fileName, data) => {
-//   fs.writeFile(fileName, JSON.stringify(data, null, "\t"), (err) =>
-//     err ? console.log(err) : console.log("Success!")
-//   );
-// };
 
-// function to initialize program
-// const init = () => {
-//   inquirer.prompt(questions).then((data) => {
-//     const fileName = `${data.title.toLowerCase().split(" ").join("")}.md`;
-//     writeToFile(fileName, data);
-//   });
-// };
 
 // {
 //   type: "list",
