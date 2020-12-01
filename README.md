@@ -28,7 +28,10 @@
   ### Installation
 
 
-  The application will be invoked by using the following command:\n```bash\nnode index.js\n```
+  The application will be invoked by using the following command: 
+  ```bash
+  node index.js
+  ```
 
 
   ### Usage
