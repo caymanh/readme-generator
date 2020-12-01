@@ -47,64 +47,51 @@ const questions = [
     type: "list",
     message: "Select a licence for your project",
     name: "licence",
-    choices: [
-      "Apache",
-      "Academic",
-      "GNU",
-      "ISC",
-      "MIT",
-      "Mozilla",
-      "Open"
-    ],
+    choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
   },
 ];
 
 //function to create markdown
 const createMarkDown = (data) => {
-  return `
-    
-    # ${data.title}
+  return `# ${data.title}\n
+  ![badge](https://img.shields.io/badge/license-${data.licence}-brightgreen)\n 
+  ## Table of Content\n
+  - [Description](#description)\n
+  - [Installation](#installation)\n
+  - [Usage](#usage)\n
+  - [Licence](#licence)\n
+  - [Contributing](#contributing)\n
+  - [Tests](#tests)\n
+  - [Questions](#questions)\n
+      
+  ### Description\n
+      
+  ${data.description}\n
+      
+  ### Installation\n
 
-    ![badge](https://img.shields.io/badge/license-${data.licence}-brightgreen)
+  ${data.installation}\n
 
-    ## Table of Content
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Licence](#licence)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    
-    ### Description
-    
-    ${data.description}
-    
-    ### Installation
+  ### Usage\n
 
-    ${data.installation}
+  ${data.usage}\n
 
-    ### Usage
+  ### Licence\n
 
-    ${data.usage}
+  This application is covered by the ${data.licence} licence.\n
 
-    ### Licence
+  ### Contributing\n
 
-    This application is covered by the ${data.licence} licence.
+  ${data.contributing}\n
 
-    ### Contributing
+  ### Tests\n
 
-    ${data.contributing}
+  ${data.tests}\n
 
-    ### Tests
+  ### Questions\n
 
-    ${data.tests}
-
-    ### Questions
-
-    Github: https://github.com/${data.username}
-    Email: ${data.email}
-    `;
+  Github: https://github.com/${data.username}\n
+  Email: ${data.email}`;
 };
 
 // function to write README file
@@ -114,6 +101,7 @@ const writeToFile = (fileName, data) => {
   );
 };
 
+const test = `# testing ### testing3`;
 // function to initialize program
 const init = () => {
   inquirer.prompt(questions).then((data) => {
@@ -181,6 +169,3 @@ init();
 //     "zLib License,",
 //   ],
 // },
-
-
-
